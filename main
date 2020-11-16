@@ -33,17 +33,17 @@ if dmor=="высокая":
 elif amor=="низкая":
     dmod=dmod/2
 print("Время узнать состав войск атаки")
-apes=int(input("Количество крестьян: ")
-armya=int(input("Количество регулярной армии: ")
-aarc=int(input("Количество лучников: ")
-awall=int(input("Уровень осады стен от 1 до 10: ")
-agate=int(input("Уровень тарана от 1 до 10: ")
+apes=int(input("Количество крестьян: "))
+armya=int(input("Количество регулярной армии: "))
+aarc=int(input("Количество лучников: "))
+awall=int(input("Уровень осады стен от 1 до 10: "))
+agate=int(input("Уровень тарана от 1 до 10: "))
 print("А теперь оборона")
-dpes=int(input("Количество стражи: ")
-armyd=int(input("Количество регулярной армии: ")
-darc=int(input("Количество настенных лучников: ")
-dwall=int(input("Уровень защиты стен от 1 до 10: ")
-dgate=int(input("Уровень ворот от 1 до 10: ")
+dpes=int(input("Количество стражи: "))
+armyd=int(input("Количество регулярной армии: "))
+darc=int(input("Количество настенных лучников: "))
+dwall=int(input("Уровень защиты стен от 1 до 10: "))
+dgate=int(input("Уровень ворот от 1 до 10: "))
 if agate<=dgate:
     if apes*amod<=dpes*3*dmod*2:
               dvictory+=1
